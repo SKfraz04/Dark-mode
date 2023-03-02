@@ -1,0 +1,26 @@
+p { /* targets all <p> elements */
+  color: red;
+}
+
+.title { /* targets all elements with class "title" */
+  font-size: 24px;
+}
+
+#header { /* targets the element with ID "header" */
+  background-color: blue;
+}
+h1 {
+  font-size: 36px;
+  color: blue;
+  background-color: yellow;
+}
+p {
+  font-size: 16px; /* 16px is the value */
+  color: red; /* "red" is the value */
+}
+/* This is a comment */
+p {
+  font-size: 16px;
+  /* This is another comment */
+  color: red;
+}
